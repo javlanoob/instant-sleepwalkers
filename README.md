@@ -3,13 +3,6 @@ Hides each sleepwalker at Phosani's Nightmare the moment you kill it, before the
 
 The one she is taking in is never hidden. A sleepwalker that reaches her merges into her and charges the power blast, so one playing the absorb stays on screen however dead it is, and one that starts the absorb while hidden comes straight back.
 
-## How a kill is spotted
-- **Your swing.** Swinging at one is the kill, with no XP drop to wait on. The animation is the earliest the attack shows up anywhere, a tick or more before the projectile.
-- **The animation frame.** The game only sends an animation when it is a different one, so a second attack in a row with the same weapon never arrives as a change. It restarts the animation instead, which the frame gives away at the end of the tick.
-- **The projectile.** A closer read of the same kill, and the one way a thrall's shot is spotted.
-- **Landed hitsplats.** Damage that has already landed, which catches anything the rest missed.
-- **Wrong guesses.** Hiding one sets the tick it has to be dead by, taken from how far away the hit came from, 5 ticks at the very most. Still standing past that and it goes back on screen.
-
 ## Settings
 **Hide killed sleepwalkers**: hides a sleepwalker the moment it is hit. Other plugins, like NPC Indicators, treat it as dead too.
 
