@@ -1,0 +1,22 @@
+package com.sleepwalkers;
+
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+
+@Getter
+@RequiredArgsConstructor
+public enum HighlightMode
+{
+	TRUE_TILE("True tile"),
+	TILE("Tile"),
+	HULL("Hull"),
+	OUTLINE("Outline");
+
+	private final String name;
+
+	@Override
+	public String toString()
+	{
+		return name;
+	}
+}
